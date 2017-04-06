@@ -13,13 +13,7 @@ set lazyredraw "redraw only when need to
 set incsearch " search as characters are entered
 set hlsearch " highlight matches
 nnoremap <leader><space> :nohlsearch<CR> : turn off highlight with ,<space>
-
-set foldenable " enable folding
-set foldlevelstart=10 " open most folds by default
-set foldnestmax=10 " 10 nest fold max
 nnoremap <space> za " space open/closes folds
-set foldmethod=indent " fold based on indent level
-
 set autoindent
 set shiftwidth=4
 set showmatch "highlight matching [{()}]
